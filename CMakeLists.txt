@@ -20,7 +20,7 @@ catkin_package(
   INCLUDE_DIRS include
   LIBRARIES laser_geometry
   CATKIN_DEPENDS tf tf2
-  DEPENDS Boost EIGEN3
+  DEPENDS Boost Eigen3
 )
 
 include_directories(include
